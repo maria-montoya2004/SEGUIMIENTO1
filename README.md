@@ -1,4 +1,5 @@
 # SEGUIMIENTO1
+
 **1) a.Describa los campos que se encontrará en este tipo de archivos. ¿Qué información está allí contenida? Proporcione ejemplos.**
 
 El archivo GFF3 contiene 9 columnas que describen distintos aspectos de las anotaciones genomicas.
@@ -44,6 +45,32 @@ La anguila asiática de pantano, también conocida como anguila arrocera, es una
 **Referencia bibliográfica**
 
 Wikipedia. (2025, enero 23). Asian swamp eel. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/w/index.php?title=Asian_swamp_eel&oldid=1271391020
+
+**3) b. investigue, usando las herramientas de la linea de comandos de unix, y conteste las siguientes preguntas:**
+**i. ¿ Cuántos features contiene el archivo?**
+
+**R//** El archivo contiene 790340 features. En la siguiente imagen se muestra una foto de la terminal donde se pide la cantidad detallada de cada feature.
+<img width="1376" height="784" alt="image" src="https://github.com/user-attachments/assets/726d7fb2-41dc-4894-baa0-61683102a24b" />
+
+**ii) ¿Cuantas regiones de la secuencia (cromosomas) contiene el archivo?**
+
+**R//** El archivo contiene 20622 regiones de la secuencia(cromosomas).
+
+**iii) ¿ Cuántos genes están listados en el organismo?**
+
+**R//** En el organismo estan listados 22145 genes.
+
+**iv) ¿Cuál es el top 10 de tipo de features( columna 3) más anotados en el genoma?**
+
+**R//** El top 10 de los tipos de features más anotados en el genoma se muesta en la siguiente imagen tomada de la terminal:
+<img width="386" height="296" alt="image" src="https://github.com/user-attachments/assets/36b2b25b-2076-477a-95ca-0d37048dcc1d" />
+
+
+
+
+
+
+
 
 
 
