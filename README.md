@@ -47,6 +47,7 @@ La anguila asiática de pantano, también conocida como anguila arrocera, es una
 Wikipedia. (2025, enero 23). Asian swamp eel. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/w/index.php?title=Asian_swamp_eel&oldid=1271391020
 
 **3) b. investigue, usando las herramientas de la linea de comandos de unix, y conteste las siguientes preguntas:**
+
 **i. ¿ Cuántos features contiene el archivo?**
 
 **R//** El archivo contiene 790340 features. En la siguiente imagen se muestra una foto de la terminal donde se pide la cantidad detallada de cada feature.
