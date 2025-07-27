@@ -4,7 +4,7 @@
 El archivo GFF3 contiene 9 columnas que describen distintos aspectos de las anotaciones genomicas.
 <img width="910" height="191" alt="image" src="https://github.com/user-attachments/assets/b6ff13f4-15e8-4361-9ffa-d5261161e523" />
 
-Tomado de:https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
+Tomado de: https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
 
 
    **Columna 1: sequid:** indica el ID del feature.
@@ -32,4 +32,19 @@ Tomado de:https://github.com/The-Sequence-Ontology/Specifications/blob/master/gf
    **Ejemplo:** en la imagen, justo en la línea 2, se puede observar que para la columna 9 los atributos son ID=gene00001;Name=EDEN.
    
    **3) a. Proporcione una breve descripción del organismo asignado**
+
+   **Angila Asiática de Pantano** (*Monopterus albus*)
+   
+   <img width="1047" height="588" alt="image" src="https://github.com/user-attachments/assets/45b8e8ab-2630-426a-bcde-0ca23d33e61a" />
+
+   Imagen tomada de: https://colombia.inaturalist.org/taxa/53511-Monopterus-albus
+   
+La anguila asiática de pantano, también conocida como anguila arrocera, es una especie de pez aerofítico que se puede encontrar en el este y sudeste de Asia (India, el sur de China, Malasia, Indonesia), donde se vende y consume comúnmente. Tiene un cuerpo anguiliforme y sin escamas; puede alcanzar un metro o menos (25 a 40 cm) en la edad adulta. Su color es variable, pero generalmente oliva o marrón, con manchas irregulares oscuras. Su boca es grande y tanto en la mandíbula superior como inferior tienen dientes diminutos para comer peces, gusanos, crustáceos y otros pequeños animales acuáticos. Su entorno preferido son los humedales fangosos, de agua dulce y poco profundos, como lagos, ríos y estanques. *Monopterus albus* puede vivir en una amplia gama de niveles de oxígeno. La anguila de pantano asiática es hermafrodita: todas las crías son hembras y, a medida que los más jóvenes comienzan a madurar, algunos adquieren el fenotipo masculino, y los machos pueden cambiar de sexo, lo que les permite reponer poblaciones cuando la densidad de hembras es baja, pero este cambio de sexo puede tardar hasta un año.(Wikipedia, 2025)
+
+**Referencia bibliográfica**
+
+Wikipedia. (2025, enero 23). Asian swamp eel. Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/w/index.php?title=Asian_swamp_eel&oldid=1271391020
+
+
+
    
