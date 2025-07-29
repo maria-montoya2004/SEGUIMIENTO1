@@ -64,6 +64,7 @@ Wikipedia. (2025, enero 23). Asian swamp eel. Wikipedia, The Free Encyclopedia. 
 **iv) ¿Cuál es el top 10 de tipo de features( columna 3) más anotados en el genoma?**
 
 **R//** El top 10 de los tipos de features más anotados en el genoma se muesta en la siguiente imagen tomada de la terminal:
+
 <img width="386" height="296" alt="image" src="https://github.com/user-attachments/assets/36b2b25b-2076-477a-95ca-0d37048dcc1d" />
 
 
