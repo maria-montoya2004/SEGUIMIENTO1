@@ -1,0 +1,50 @@
+#Punto 2 . Descarga de archivos de trabajo
+
+#primero activo el entorno bioinfo
+
+conda activate bioinfo
+
+#creo una carpeta donde estará todo lo del seguimiento 1
+
+mkdir seguimiento1
+
+#abro la carpeta seguimiento1
+
+cd seguimiento1
+
+#descargo el archivo de monopterus_albus, para esto tomo de la pagina el archivo .gff Monopterus_albus.M_albus_1.0.114.gff3.gz 
+# copio la dirección de enlace y luego en la terminal lo pego junto con el comando wget
+
+wget https://ftp.ensembl.org/pub/current_gff3/monopterus_albus/Monopterus_albus.M_albus_1.0.114.gff3.gz
+
+#descromprimo el archivo haciendo uso del comando gunzip
+
+gunzip  Monopterus_albus.M_albus_1.0.114.gff3.gz
+
+#Punto 3. Análisis del archivo
+
+#pregunta b.i
+#¿cuantos features contiene el archivo?.
+#Este código me sirve para saber en general cuantos hay
+cat  Monopterus_albus.M_albus_1.0.114.gff3|grep -v "^#" | wc -l
+
+#este código me sirve para saber la cantidad exacta de cada feature
+cat  Monopterus_albus.M_albus_1.0.114.gff3|grep -v "^#" | cut -f3 | sort | uniq -c | sort -nr
+
+#pregunta b.ii
+#¿cuantas regiones de la secuencia ( cromosomas) contiene el archivo?
+
+cat Monopterus_albus.M_albus_1.0.114.gff3 | grep "##sequence-region" | wc -l
+
+#pregunta b.iii
+#¿cuantos genes están listados en el organismo?
+#utilizo el comando awk '$3="gene"' para comparar solo la columna tres la palabra exacta(idéntica) "gene"
+#obteniendo solo el resultado de las features igual a gene
+
+cat Monopterus_albus.M_albus_1.0.114.gff3 | grep -v "^#" | awk '$3=="gene"'| wc -l
+
+#pregunta b.iv
+#¿Cuál es el top 10 de tipo de features (columna 3) más anotados en el genoma?
+
+cat  Monopterus_albus.M_albus_1.0.114.gff3|grep -v "^#" | cut -f3 | sort | uniq -c | sort -nr | head
+
